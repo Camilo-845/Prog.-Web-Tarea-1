@@ -1,60 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HV Camilo Sarmiento</title>
     <link rel="stylesheet" href="../css/styles_HV.css" />
   </head>
   <body>
     <header>
-      <section id="headerSecition1">
+      <section id="headerSection1">
         <a href="../index.html">
           <picture id="UnimagLogoContainer">
-            <img id="LogoImage" src="../resources/UnimagLogo.png" alt="" />
+            <img id="LogoImage" src="../resources/UnimagLogo.png" alt="Logo Unimag" />
             <p>CAMPUS VIRTUAL</p>
           </picture>
         </a>
         <h1>DESARROLLO WEB</h1>
       </section>
-      <section id="headerSecition2">
-        <img src="../resources/appsLogo.svg" alt="" />
-        <img src="../resources/mailLogo.svg" alt="" />
-        <img src="../resources/chatLogo.svg" alt="" />
-        <img src="../resources/notification.svg" alt="" />
-        <picture>
-          <img src="../resources/ProfileImage.png" alt="" id="LogoImage2" />
+      <section id="headerSection2">
+        <img src="../resources/appsLogo.svg" alt="Apps" />
+        <img src="../resources/mailLogo.svg" alt="Mail" />
+        <img src="../resources/chatLogo.svg" alt="Chat" />
+        <img src="../resources/notification.svg" alt="Notificaciones" />
+        <picture id="pictureContainer">
+          <img src="../resources/ProfileImage.png" alt="Perfil" id="LogoImage2" />
           <h3>USERNAME</h3>
         </picture>
-        <img src="../resources/settings.svg" alt="" />
+        <img src="../resources/settings.svg" alt="Configuración" />
       </section>
     </header>
+
     <nav>
       <a href="#">Contenido</a>
-      <a href="#">Asigaciones</a>
+      <a href="#">Asignaciones</a>
       <a href="#">Foros</a>
       <a href="#">Cuestionarios</a>
-      <a href="#">Progreso de la clase</a>
+      <a href="#">Progreso</a>
       <a href="#">Valoraciones</a>
-      <a href="#">Evalucaición</a>
+      <a href="#">Evaluación</a>
       <a href="#">Herramientas</a>
     </nav>
+
     <main>
-      <section class="header">
-		<h2>HOJA DE VIDA</h2>
-		<h3>CAMILO SARMIENTO</h3>
-		<p>Desarrollador Web</p>
-	  </section>
-      <aside class="sideInfo">
-		<h3>Información Personal</h3>
-		<p>Nombre: Camilo Sarmiento</p>
-		<p>Edad: 25 años</p>
-		<p>Correo:
-	  </aside>
-      <section class="content">
-		<h3>Experiencia Laboral</h3>
-		<p></p>
-	  </section>
+      <section class="mainContent">
+        <picture id="cv_image">
+          <img src="../resources/profile-pic (3).png" alt="Imagen de perfil" />
+        </picture>
+        <section class="cardsContainer">
+          <article class="card">
+            <h1>Acerca de mí</h1>
+            <p>Estudiante de Ingeniería de Sistemas con pasión por el aprendizaje y la tecnología.</p>
+          </article>
+          <article class="card">
+            <h1>Educación</h1>
+            <ul>
+              <li>Universidad del Magdalena - Ingeniería de Sistemas (7° semestre)</li>
+              <li>Bootcamp Arquitectura en la Nube - Explorador (Jul 2024 - Oct 2024)</li>
+              <li>Formación intensiva en programación - UNAL (May 2021 - Dic 2021)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h1>Habilidades</h1>
+            <ul>
+              <li>TypeScript, SQL, Python, Java, Git, Docker, React</li>
+              <li>HTML, CSS, NoSQL, Django, AWS, C++</li>
+              <li>Google AppsScript, Linux Servers</li>
+            </ul>
+          </article>
+        </section>
+      </section>
+
+      <aside class="sideBar">
+        <h1>Camilo Sarmiento</h1>
+        <p>Estudiante de Ing. de Sistemas</p>
+        <h2>Fecha de Nacimiento</h2>
+        <p>12 de Diciembre de 1999</p>
+        <h2>Nacionalidad</h2>
+        <p>Colombiana</p>
+        <h2>Correo</h2>
+        <p>camilo.sarmiento.amado@gmail.com</p>
+        <h2>Redes</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/camilosarmiento">LinkedIn</a></li>
+          <li><a href="https://github.com/camilo-845">GitHub</a></li>
+        </ul>
+      </aside>
     </main>
   </body>
 </html>
